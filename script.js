@@ -14,6 +14,7 @@ const productData = {
     sponge: {
         title: 'Pan de banano',
         description: 'Un bizcocho artesanal preparado con bananos en su punto justo de madurez, integrados en una masa ligera y equilibrada. Horneado con calma, conserva una textura húmeda y una fragancia cálida que envuelve cada rebanada. Una preparación sencilla, pero con un carácter reconfortante y hogareño.',
+        image: 'assets2/66.png'
     },
     cheesecake: {
         title: 'Red Velvet',
@@ -23,18 +24,22 @@ const productData = {
     cupcake: {
         title: 'Cupcakes',
         description: 'Cada cupcake es una obra en miniatura: una masa suave horneada en moldes delicados, lista para recibir un toque final de crema o glaseado. Ya sea en versiones de banano, vainilla o chocolate, estos bocados combinan estética y sabor en perfecta armonía, pensados para acompañar tanto un momento casual como una ocasión especial.',
+        image: 'assets2/99.png'
     },
     macaron: {
         title: 'Croissant',
         description: 'Un clásico francés elaborado con masa hojaldrada trabajada a mano y mantequilla de calidad. Su proceso de laminado crea capas finas y aireadas, que tras el horneado ofrecen una corteza crujiente y un corazón tierno. Un pan que combina sencillez con sofisticación en cada bocado.',
+            image: 'assets2/15.png'
     },
     mousse: {
         title: 'Churros',
         description: 'Elaborados con una masa ligera, los churros se fríen en aceite caliente hasta alcanzar un dorado perfecto. Su interior es esponjoso y su superficie se realza con un delicado baño de azúcar y canela. Servidos recién hechos, evocan tradición y calidez en su forma más simple y delicios.',
+        image: 'assets2/16.png'
     },
     bento: {
         title: 'Donas',
         description: 'Preparadas a partir de una masa fermentada que reposa para ganar ligereza, las donas se fríen hasta lograr un acabado dorado y aireado. Posteriormente se bañan en glaseados finos de chocolate, vainilla o azúcar, ofreciendo un contraste perfecto entre suavidad y dulzor. Un clásico que nunca pierde su encanto.',
+        image: 'assets2/6.png'
     }
 };
 
@@ -73,6 +78,7 @@ window.addEventListener('click', (event) => {
     }
 
 });
+
 
 
 
