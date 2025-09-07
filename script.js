@@ -40,7 +40,7 @@ const productData = {
     bento: {
         title: 'Donas',
         description: 'Preparadas a partir de una masa fermentada que reposa para ganar ligereza, las donas se fríen hasta lograr un acabado dorado y aireado. Posteriormente se bañan en glaseados finos de chocolate, vainilla o azúcar, ofreciendo un contraste perfecto entre suavidad y dulzor. Un clásico que nunca pierde su encanto.',
-        image: 'assets2/6.PNG'
+        image: 'assets2/6.png'
     }
 };
 
@@ -77,4 +77,5 @@ window.addEventListener('click', (event) => {
     if (event.target === modal) {
         closeModal();
     }
+
 });
