@@ -18,7 +18,8 @@ const productData = {
     cheesecake: {
         title: 'Red Velvet',
         description: 'Suave, ligero y de un rojo intenso, el Red Velvet nace de la mezcla equilibrada de cacao, mantequilla y azúcar. Su horneado controlado garantiza una miga esponjosa, mientras que el glaseado de queso crema aporta frescura y contraste. Un pastel refinado, tan atractivo a la vista como al paladar.',
-   },
+        image: 'assets2/77.png'
+    },
     cupcake: {
         title: 'Cupcakes',
         description: 'Cada cupcake es una obra en miniatura: una masa suave horneada en moldes delicados, lista para recibir un toque final de crema o glaseado. Ya sea en versiones de banano, vainilla o chocolate, estos bocados combinan estética y sabor en perfecta armonía, pensados para acompañar tanto un momento casual como una ocasión especial.',
@@ -72,6 +73,7 @@ window.addEventListener('click', (event) => {
     }
 
 });
+
 
 
 
