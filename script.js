@@ -19,7 +19,7 @@ const productData = {
     cheesecake: {
         title: 'Red Velvet',
         description: 'Suave, ligero y de un rojo intenso, el Red Velvet nace de la mezcla equilibrada de cacao, mantequilla y azúcar. Su horneado controlado garantiza una miga esponjosa, mientras que el glaseado de queso crema aporta frescura y contraste. Un pastel refinado, tan atractivo a la vista como al paladar.',
-        image: 'assets2/77.PNG'
+        image: 'assets2/77.png'
     },
     cupcake: {
         title: 'Cupcakes',
@@ -78,5 +78,6 @@ window.addEventListener('click', (event) => {
     }
 
 });
+
 
 
